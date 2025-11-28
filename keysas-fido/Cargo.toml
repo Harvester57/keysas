@@ -10,7 +10,7 @@ edition = "2024"
 
 [dependencies]
 yubico_manager = { git = "https://github.com/r3dlight/yubico-manager"}
-rand="0.8"
+rand="0.9"
 clap = { version = "4", default-features = false, features = ["std", "cargo"] }
 sled = "0.34"
 anyhow = "1.0"

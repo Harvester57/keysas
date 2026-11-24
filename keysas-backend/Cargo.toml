@@ -8,7 +8,7 @@ edition = "2024"
 
 
 [dependencies]
-tungstenite = "0.28"
+tungstenite = "0.30"
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
@@ -17,16 +17,16 @@ anyhow = "1.0"
 regex = "1"
 libc = "0.2"
 nom = "8"
-nix = { version = "0.30", features = ["net"]}
+nix = { version = "0.32", features = ["net"]}
 landlock = "0.4" 
 http = "1"
 
 [dev-dependencies]
-criterion = "0.7"
+criterion = "0.8"
 env_logger = "0.11"
 input_buffer = "0.5"
 socket2 = "0.6"
-rand = "0.9"
+rand = "0.10"
 
 [[bin]]
 name = "keysas-backend"

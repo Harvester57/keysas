@@ -8,7 +8,7 @@ version = "2.7.0"
 edition = "2024"
 
 [dependencies]
-tungstenite = "0.28"
+tungstenite = "0.30"
 serde = "1.0"
 serde_json = "1.0"
 serde_derive = "1.0"
@@ -28,16 +28,16 @@ yubico_manager = { git = "https://github.com/r3dlight/yubico-manager"}
 walkdir = "2.4"
 keysas_lib = { path = "../keysas_lib" }
 oqs = { version = "0.11", default-features = false, features =["ml_dsa"] }
-ed25519-dalek = "2"
-base64 = "0.22"
+ed25519-dalek = "3"
+base64 = "0.23"
 bytemuck = "1.4"
 
 [dev-dependencies]
-criterion = "0.7"
+criterion = "0.8"
 env_logger = "0.11"
 input_buffer = "0.5"
 socket2 = "0.6"
-rand = "0.9"
+rand = "0.10"
 
 [[bin]]
 name = "keysas-io"
